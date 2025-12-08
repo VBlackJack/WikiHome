@@ -10,26 +10,25 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Récupère tout l'historique pour éviter les conflits de merge
-
-      - name: Configure Git Credentials
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: 3.x
           
-      - name: Install dependencies
+      - name: Install MkDocs Material
         run: pip install mkdocs-material
 
       - name: Build Site
         run: mkdocs build
-        
-      - name: Deploy to gh-pages
-        run: mkdocs gh-deploy --force
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          force_orphan: true # Écrase totalement l'historique de la branche gh-pages (plus propre)
