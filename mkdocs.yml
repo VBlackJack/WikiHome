@@ -1,0 +1,59 @@
+site_name: WikiHome 🏠
+site_url: https://VBlackJack.github.io/WikiHome/
+site_description: La documentation technique de la vie domestique.
+
+repo_name: VBlackJack/WikiHome
+repo_url: https://github.com/VBlackJack/WikiHome
+edit_uri: edit/main/
+
+theme:
+  name: material
+  language: fr
+  logo: https://twemoji.maxcdn.com/v/latest/svg/1f3e0.svg # Maison Emoji
+  favicon: https://twemoji.maxcdn.com/v/latest/svg/1f3e0.svg
+  features:
+    - navigation.tabs # Onglets en haut (Top menu)
+    - navigation.sections # Sections déroulantes
+    - navigation.top # Bouton retour en haut
+    - navigation.instant # Chargement instantané (SPA feel)
+    - search.suggest # Suggestion de recherche
+    - search.highlight # Surlignage des résultats
+    - content.code.copy # Bouton copier le code
+  palette:
+    # Mode Clair
+    - scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Passer au mode sombre
+    # Mode Sombre
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Passer au mode clair
+
+markdown_extensions:
+  - admonition # Pour les blocs d'alerte (Attention, Info...)
+  - pymdownx.details # Pour les blocs dépliables
+  - pymdownx.superfences # Pour les diagrammes et code avancé
+  - pymdownx.tabbed: # Pour les onglets dans le contenu
+      alternate_style: true 
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - 🏠 Accueil: README.md
+  - 🎄 Saisonnier:
+    - Montage Sapin (Pro): guides/saisonnier/montage_sapin.md
+    - Specs Achat Sapin: guides/saisonnier/specs_sapin.md
+  - 🍳 Cuisine:
+    - L'Œuf Parfait: guides/cuisine/cuisson_oeufs.md
+  - 🔧 Bricolage: []
+  - 📄 Admin: []
+  - ⚙️ Méta:
+    - Template Guide: _templates/guide_type.md
