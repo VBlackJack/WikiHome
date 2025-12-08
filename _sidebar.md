@@ -1,17 +1,17 @@
-* [Accueil](/)
+* [🏠 Accueil](README.md)
 
-* **Saisonnier**
-  * [Montage Sapin](guides/saisonnier/montage_sapin.md)
-  * [Specs Sapin](guides/saisonnier/specs_sapin.md)
+* **🎄 Saisonnier**
+  * [Montage Sapin (Pro)](guides/saisonnier/montage_sapin.md)
+  * [Specs Achat Sapin](guides/saisonnier/specs_sapin.md)
 
-* **Cuisine**
-  * [Cuisson Oeufs](guides/cuisine/cuisson_oeufs.md)
+* **🍳 Cuisine**
+  * [L'Œuf Parfait](guides/cuisine/cuisson_oeufs.md)
 
-* **Bricolage**
+* **🔧 Bricolage**
   * *Bientôt disponible*
 
-* **Admin**
+* **📄 Admin**
   * *Bientôt disponible*
 
-* **Méta**
+* **⚙️ Méta**
   * [Template Guide](_templates/guide_type.md)

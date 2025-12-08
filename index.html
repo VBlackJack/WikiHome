@@ -4,24 +4,81 @@
   <meta charset="UTF-8">
   <title>WikiHome 🏠</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Documentation technique de la vie domestique">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  
+  <!-- Polices modernes (Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Thème "Themeable" (Plus propre que le défaut) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+
+  <style>
+    /* CUSTOMISATION FAMILLE */
+    :root {
+      --base-font-family: 'Inter', sans-serif;
+      --theme-color: #2c3e50; /* Bleu Nuit élégant */
+      --base-font-size: 16px;
+      --sidebar-width: 18rem;
+      --content-max-width: 60em;
+    }
+
+    /* Arrondir les angles pour un look "App" */
+    .sidebar { border-right: 1px solid #eee; background-color: #fafafa; }
+    .content { padding-top: 2rem; }
+    
+    /* Boutons et liens */
+    a { transition: color 0.2s; text-decoration: none; }
+    
+    /* Tableaux plus lisibles */
+    table { display: table !important; width: 100%; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+    thead { background-color: #f8f9fa; }
+    
+    /* Images avec bordures douces */
+    img { border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+  </style>
 </head>
 <body>
-  <div id="app">Chargement du Wiki...</div>
+  <div id="app">Chargement de la maison...</div>
   <script>
     window.$docsify = {
-      name: 'WikiHome 🏠',
+      name: 'WikiHome',
       repo: 'https://github.com/VBlackJack/WikiHome',
+      
+      // Configuration UX
       loadSidebar: true,
-      subMaxLevel: 2,
+      coverpage: true, // Active la page d'accueil
       auto2top: true,
-      search: 'auto', // Activation de la recherche
+      subMaxLevel: 2,
+      
+      // Recherche puissante
+      search: {
+        placeholder: '🔍 Rechercher une info...',
+        noData: 'Aucun résultat !',
+        depth: 6
+      },
+
+      // Pagination en bas de page
+      pagination: {
+        previousText: 'Précédent',
+        nextText: 'Suivant',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+      
+      themeable: {
+        readyTransition : true,
+        responsiveTables: true
+      }
     }
   </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  
+  <!-- Plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
 </html>
