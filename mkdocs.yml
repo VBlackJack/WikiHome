@@ -82,6 +82,10 @@ nav:
   - Admin:
     - guides/admin/index.md
     - Checklist Administrative: guides/admin/checklist_administrative.md
+  - "Biblioth\xE8que":
+    - bibliotheque/index.md
+    - Cuisine: bibliotheque/cuisine.md
+    - Plantes Medicinales: bibliotheque/plantes_medicinales.md
   - Tags: tags.md
 markdown_extensions:
   - admonition

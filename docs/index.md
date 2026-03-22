@@ -76,3 +76,12 @@ WikiHome est une base de connaissances "No-Fluff" pour la gestion efficace du qu
 ## Admin
 
 - [Checklist administrative annuelle](guides/admin/checklist_administrative.md)
+
+---
+
+## Bibliotheque
+
+Catalogue d'ebooks classes par theme.
+
+- [Cuisine](bibliotheque/cuisine.md) — 130+ livres : techniques, recettes du monde, patisserie, livres anciens (1662-1953)
+- [Plantes medicinales](bibliotheque/plantes_medicinales.md) — Atlas, encyclopedies et guides pratiques
