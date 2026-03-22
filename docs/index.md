@@ -49,9 +49,17 @@ WikiHome est une base de connaissances "No-Fluff" pour la gestion efficace du qu
 
 ## Bricolage
 
+### Reparations
+
 - [Chevilles et fixations : choisir selon le support](guides/bricolage/chevilles_fixations.md)
 - [Purger un radiateur](guides/bricolage/purger_radiateur.md)
 - [Changer un joint (robinet, siphon, chasse d'eau)](guides/bricolage/changer_joint.md)
+
+### Entretien et Nettoyage
+
+- [Vinaigre blanc : 20+ usages domestiques](guides/bricolage/vinaigre_blanc.md)
+- [Bicarbonate de soude : 20+ usages domestiques](guides/bricolage/bicarbonate_soude.md)
+- [Astuces nettoyage et entretien](guides/bricolage/astuces_nettoyage.md)
 
 ---
 

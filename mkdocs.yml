@@ -64,9 +64,14 @@ nav:
       - "B\xEC Cu\u1ED1n": guides/cuisine/bi_cuon.md
   - Bricolage:
     - guides/bricolage/index.md
-    - Chevilles et Fixations: guides/bricolage/chevilles_fixations.md
-    - Purger un Radiateur: guides/bricolage/purger_radiateur.md
-    - Changer un Joint: guides/bricolage/changer_joint.md
+    - "R\xE9parations":
+      - Chevilles et Fixations: guides/bricolage/chevilles_fixations.md
+      - Purger un Radiateur: guides/bricolage/purger_radiateur.md
+      - Changer un Joint: guides/bricolage/changer_joint.md
+    - Entretien et Nettoyage:
+      - Vinaigre Blanc: guides/bricolage/vinaigre_blanc.md
+      - Bicarbonate de Soude: guides/bricolage/bicarbonate_soude.md
+      - Astuces Nettoyage: guides/bricolage/astuces_nettoyage.md
   - Saisonnier:
     - guides/saisonnier/index.md
     - Montage Sapin: guides/saisonnier/montage_sapin.md
