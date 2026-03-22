@@ -59,6 +59,7 @@ WikiHome est une base de connaissances "No-Fluff" pour la gestion efficace du qu
 
 - [Vinaigre blanc : 20+ usages domestiques](guides/bricolage/vinaigre_blanc.md)
 - [Bicarbonate de soude : 20+ usages domestiques](guides/bricolage/bicarbonate_soude.md)
+- [Citron : 15+ usages domestiques](guides/bricolage/citron.md)
 - [Astuces nettoyage et entretien](guides/bricolage/astuces_nettoyage.md)
 
 ---

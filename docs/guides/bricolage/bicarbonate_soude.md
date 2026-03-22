@@ -93,4 +93,4 @@ La reaction bicarbonate (base) + vinaigre (acide) produit du CO2 (mousse) et de 
 
 ---
 
-**Voir aussi :** [Vinaigre blanc](vinaigre_blanc.md) | [Astuces nettoyage](astuces_nettoyage.md)
+**Voir aussi :** [Vinaigre blanc](vinaigre_blanc.md) | [Citron](citron.md) | [Astuces nettoyage](astuces_nettoyage.md)

@@ -17,4 +17,5 @@ Maintenance technique, reparations et entretien domestiques. Procedures testees,
 
 - [Vinaigre blanc : 20+ usages domestiques](vinaigre_blanc.md) — Detartrage, nettoyage, linge, desherbage
 - [Bicarbonate de soude : 20+ usages domestiques](bicarbonate_soude.md) — Abrasif doux, desodorisant, detachant
+- [Citron : 15+ usages domestiques](citron.md) — Detartrage, blanchiment, anti-rouille, desodorisant
 - [Astuces nettoyage et entretien](astuces_nettoyage.md) — Colle, taches difficiles, debouchage, produits essentiels

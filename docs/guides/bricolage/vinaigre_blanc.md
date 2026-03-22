@@ -85,4 +85,4 @@ Le vinaigre blanc (ou vinaigre d'alcool, 8-14% d'acide acetique) est le produit 
 
 ---
 
-**Voir aussi :** [Bicarbonate de soude](bicarbonate_soude.md) | [Astuces nettoyage](astuces_nettoyage.md)
+**Voir aussi :** [Bicarbonate de soude](bicarbonate_soude.md) | [Citron](citron.md) | [Astuces nettoyage](astuces_nettoyage.md)
