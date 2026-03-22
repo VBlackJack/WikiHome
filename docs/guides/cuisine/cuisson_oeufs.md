@@ -1,26 +1,34 @@
-## Cuisson des Œufs (Coque, Mollet, Dur)
+## Cuisson des Oeufs (Coque, Mollet, Dur)
 
-**Méthode :** Départ eau bouillante.
-**Justification :** Reproductibilité constante et facilité d'écalage (choc thermique).
+**Date de mise a jour :** 2026-03-22
+**Difficulte :** 1/5
 
-### Matériel
-- [ ] Casserole adaptée au volume.
+**Methode :** Depart eau bouillante.
+**Justification :** Reproductibilite constante et facilite d'ecalage (choc thermique).
+
+### Materiel
+- [ ] Casserole adaptee au volume.
 - [ ] Eau.
-- [ ] Glaçons (Indispensable pour le bain d'arrêt).
-- [ ] Punaise (Optionnel : pour percer la poche d'air au cul de l'œuf).
+- [ ] Glacons (Indispensable pour le bain d'arret).
+- [ ] Punaise (Optionnel : pour percer la poche d'air au cul de l'oeuf).
 
 ### Tableau des Temps (Eau Bouillante)
 | Type | Temps (Eau bouillante) | Texture Jaune |
 | :--- | :--- | :--- |
 | Coque | 6 min | Liquide |
-| Mollet | 7 min | Coulant/Crémeux |
+| Mollet | 7 min | Coulant/Cremeux |
 | Dur (Standard) | 9 min | Ferme et jaune |
-| Dur (Sec) | 10+ min | Sec et poudreux (déconseillé) |
+| Dur (Sec) | 10+ min | Sec et poudreux (deconseille) |
 
-### Procédure
-1. Porter l'eau à ébullition franche.
-2. Plonger délicatement les œufs dans l'eau (générer le choc thermique).
-3. **Immédiatement** : Lancer le chronomètre selon le tableau ci-dessus.
-4. Maintenir un frémissement pendant la cuisson.
-5. **CRITIQUE (Bain d'arrêt)** : À la seconde près, sortir les œufs et les plonger dans le bac d'eau glacée.
-    *   *Objectif :* Stopper net la cuisson par inertie et rétracter l'albumine pour un écalage parfait.
+### Procedure
+1. Porter l'eau a ebullition franche.
+2. Plonger delicatement les oeufs dans l'eau (generer le choc thermique).
+3. **Immediatement** : Lancer le chronometre selon le tableau ci-dessus.
+4. Maintenir un fremissement pendant la cuisson.
+
+!!! warning "Bain d'arret (CRITIQUE)"
+    A la seconde pres, sortir les oeufs et les plonger dans le bac d'eau glacee. **Objectif :** Stopper net la cuisson par inertie et retracter l'albumine pour un ecalage parfait.
+
+---
+
+**Voir aussi :** [Qualite des oeufs et codes d'elevage](oeufs_qualite.md)

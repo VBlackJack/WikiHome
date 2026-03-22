@@ -1,32 +1,46 @@
-## Montage du Sapin de Noël (Technique Pro)
+## Montage du Sapin de Noel (Technique Pro)
 
-### Prérequis
+**Date de mise a jour :** 2026-03-22
+**Difficulte :** 2/5
+
+### Prerequis
 - [ ] Gants de protection
 - [ ] Ciseaux
-- [ ] ⚠️ **CRITIQUE :** Test des lumières **AVANT** installation.
 
-### La Règle des 4 Couches (Structure logique)
+!!! warning "CRITIQUE"
+    Test des lumieres **AVANT** installation.
 
-#### 1. L'Illumination (Cachée)
+### La Regle des 4 Couches (Structure logique)
+
+#### 1. L'Illumination (Cachee)
 Technique de base : "Inside-Out".
+
 - [ ] Partir du tronc.
-- [ ] Aller vers l'extrémité de la branche.
+- [ ] Aller vers l'extremite de la branche.
 - [ ] Revenir vers le tronc.
-- [ ] **Objectif :** Cacher les câbles.
-- [ ] ⚠️ **INTERDIT :** Ne jamais tourner en rond autour du sapin (effet "momie").
+- [ ] **Objectif :** Cacher les cables.
+
+!!! danger "Interdit"
+    Ne jamais tourner en rond autour du sapin (effet "momie").
 
 #### 2. La Structure (Guirlandes non lumineuses)
-- [ ] À poser **avant** les boules pour ne pas gêner le placement des ornements.
-- [ ] Assurer une répartition équilibrée.
+- [ ] A poser **avant** les boules pour ne pas gener le placement des ornements.
+- [ ] Assurer une repartition equilibree.
 
-#### 3. Le Volume (Grosses décorations)
-- [ ] Placer les éléments volumineux **près du tronc**.
-- [ ] Créer de la profondeur visuelle ("Depth of Field").
+#### 3. Le Volume (Grosses decorations)
+- [ ] Placer les elements volumineux **pres du tronc**.
+- [ ] Creer de la profondeur visuelle ("Depth of Field").
 
 #### 4. La Finition (Petits sujets)
-- [ ] Placer les éléments délicats en **bout de branche**.
-- [ ] Ajuster pour l'équilibre visuel final.
+- [ ] Placer les elements delicats en **bout de branche**.
+- [ ] Ajuster pour l'equilibre visuel final.
 
 ### Astuces Critiques
-- **"Fluffing"** (Indispensable pour l'artificiel) : Écarter chaque brindille individuellement pour maximiser le volume.
-- ⚠️ **Sécurité** : Coupure électrique générale du sapin en cas d'absence du domicile.
+- **"Fluffing"** (Indispensable pour l'artificiel) : Ecarter chaque brindille individuellement pour maximiser le volume.
+
+!!! warning "Securite"
+    Coupure electrique generale du sapin en cas d'absence du domicile.
+
+---
+
+**Voir aussi :** [Specifications techniques du sapin](specs_sapin.md)
