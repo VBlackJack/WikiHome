@@ -1,0 +1,293 @@
+/* Dracula Theme for MkDocs Material */
+/* Official spec: https://spec.draculatheme.com/ */
+/* Colors aligned with https://github.com/dracula/gh-pages */
+
+/* Official Dracula Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  /* Official Dracula Palette - https://spec.draculatheme.com/ */
+  --dracula-background: #282a36;
+  --dracula-current-line: #44475a;
+  --dracula-selection: #44475a;
+  --dracula-foreground: #f8f8f2;
+  --dracula-comment: #6272a4;
+  --dracula-cyan: #8be9fd;
+  --dracula-green: #50fa7b;
+  --dracula-orange: #ffb86c;
+  --dracula-pink: #ff79c6;
+  --dracula-purple: #bd93f9;
+  --dracula-red: #ff5555;
+  --dracula-yellow: #f1fa8c;
+  /* ANSI Bright variants */
+  --dracula-bright-red: #ff6e6e;
+  --dracula-bright-green: #69ff94;
+  --dracula-bright-yellow: #ffffa5;
+  --dracula-bright-blue: #d6acff;
+  --dracula-bright-magenta: #ff92df;
+  --dracula-bright-cyan: #a4ffff;
+}
+
+/* ============================================
+   DARK SCHEME (Primary Dracula)
+   ============================================ */
+[data-md-color-scheme="dracula"] {
+  /* Official Dracula fonts */
+  --md-text-font: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --md-code-font: "Fira Code", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", monospace;
+
+  /* Core colors */
+  --md-default-bg-color: var(--dracula-background);
+  --md-default-fg-color: var(--dracula-foreground);
+  --md-default-fg-color--light: var(--dracula-comment);
+  --md-default-fg-color--lighter: #6272a4cc;
+  --md-default-fg-color--lightest: #6272a466;
+
+  /* Primary */
+  --md-primary-fg-color: var(--dracula-purple);
+  --md-primary-fg-color--light: #bd93f9cc;
+  --md-primary-fg-color--dark: #9d79d9;
+  --md-primary-bg-color: var(--dracula-foreground);
+  --md-primary-bg-color--light: #f8f8f2b3;
+
+  /* Accent */
+  --md-accent-fg-color: var(--dracula-pink);
+  --md-accent-fg-color--transparent: #ff79c61a;
+  --md-accent-bg-color: var(--dracula-foreground);
+  --md-accent-bg-color--light: #f8f8f2b3;
+
+  /* Code blocks - aligned with rouge-dracula.scss */
+  --md-code-bg-color: var(--dracula-current-line);
+  --md-code-fg-color: var(--dracula-foreground);
+
+  /* Syntax highlighting - official Dracula rouge mapping */
+  --md-code-hl-color: #ff79c61a;
+  --md-code-hl-number-color: var(--dracula-purple);
+  --md-code-hl-special-color: var(--dracula-pink);
+  --md-code-hl-function-color: var(--dracula-green);
+  --md-code-hl-constant-color: var(--dracula-orange);
+  --md-code-hl-keyword-color: var(--dracula-pink);
+  --md-code-hl-string-color: var(--dracula-yellow);
+  --md-code-hl-name-color: var(--dracula-cyan);
+  --md-code-hl-operator-color: var(--dracula-pink);
+  --md-code-hl-punctuation-color: var(--dracula-foreground);
+  --md-code-hl-comment-color: var(--dracula-comment);
+  --md-code-hl-generic-color: var(--dracula-foreground);
+  --md-code-hl-variable-color: var(--dracula-foreground);
+
+  /* Typography */
+  --md-typeset-color: var(--dracula-foreground);
+  --md-typeset-a-color: var(--dracula-cyan);
+  --md-typeset-mark-color: #f1fa8c33;
+  --md-typeset-kbd-color: var(--dracula-current-line);
+  --md-typeset-kbd-accent-color: #44475acc;
+  --md-typeset-kbd-border-color: #282a36;
+
+  /* Tables */
+  --md-typeset-table-color: #44475a80;
+  --md-typeset-table-color--light: #44475a33;
+
+  /* Admonitions */
+  --md-admonition-bg-color: #44475a80;
+
+  /* Footer */
+  --md-footer-bg-color: #21222c;
+  --md-footer-bg-color--dark: #191a21;
+  --md-footer-fg-color: var(--dracula-foreground);
+  --md-footer-fg-color--light: var(--dracula-comment);
+  --md-footer-fg-color--lighter: #6272a480;
+
+  /* Shadows */
+  --md-shadow-z1: 0 0.2rem 0.5rem #00000033, 0 0 0.05rem #0000001a;
+  --md-shadow-z2: 0 0.2rem 0.5rem #0000004d, 0 0 0.05rem #00000040;
+  --md-shadow-z3: 0 0.2rem 0.5rem #00000066, 0 0 0.05rem #00000059;
+}
+
+/* Header */
+[data-md-color-scheme="dracula"] .md-header {
+  background-color: #21222c;
+}
+
+/* Navigation sidebar */
+[data-md-color-scheme="dracula"] .md-nav__link {
+  color: var(--dracula-foreground);
+}
+
+[data-md-color-scheme="dracula"] .md-nav__link:hover,
+[data-md-color-scheme="dracula"] .md-nav__link:focus {
+  color: var(--dracula-cyan);
+}
+
+[data-md-color-scheme="dracula"] .md-nav__link--active,
+[data-md-color-scheme="dracula"] .md-nav__item--active > .md-nav__link {
+  color: var(--dracula-pink);
+}
+
+/* Tabs */
+[data-md-color-scheme="dracula"] .md-tabs {
+  background-color: #21222c;
+}
+
+[data-md-color-scheme="dracula"] .md-tabs__link {
+  color: var(--dracula-comment);
+}
+
+[data-md-color-scheme="dracula"] .md-tabs__link--active,
+[data-md-color-scheme="dracula"] .md-tabs__link:hover {
+  color: var(--dracula-foreground);
+}
+
+/* Search */
+[data-md-color-scheme="dracula"] .md-search__input {
+  background-color: var(--dracula-current-line);
+  color: var(--dracula-foreground);
+}
+
+[data-md-color-scheme="dracula"] .md-search__input::placeholder {
+  color: var(--dracula-comment);
+}
+
+[data-md-color-scheme="dracula"] .md-search-result__meta {
+  background-color: #21222c;
+  color: var(--dracula-comment);
+}
+
+[data-md-color-scheme="dracula"] .md-search-result__teaser {
+  color: var(--dracula-comment);
+}
+
+/* Sidebar */
+[data-md-color-scheme="dracula"] .md-sidebar {
+  background-color: var(--dracula-background);
+}
+
+/* Admonitions - Dracula colors */
+[data-md-color-scheme="dracula"] .md-typeset .admonition,
+[data-md-color-scheme="dracula"] .md-typeset details {
+  background-color: #44475a66;
+  border-color: var(--dracula-comment);
+}
+
+[data-md-color-scheme="dracula"] .md-typeset .admonition.danger,
+[data-md-color-scheme="dracula"] .md-typeset details.danger {
+  border-color: var(--dracula-red);
+}
+
+[data-md-color-scheme="dracula"] .md-typeset .admonition.warning,
+[data-md-color-scheme="dracula"] .md-typeset details.warning {
+  border-color: var(--dracula-orange);
+}
+
+[data-md-color-scheme="dracula"] .md-typeset .admonition.tip,
+[data-md-color-scheme="dracula"] .md-typeset details.tip {
+  border-color: var(--dracula-green);
+}
+
+[data-md-color-scheme="dracula"] .md-typeset .admonition.info,
+[data-md-color-scheme="dracula"] .md-typeset details.info {
+  border-color: var(--dracula-cyan);
+}
+
+[data-md-color-scheme="dracula"] .md-typeset .admonition.note,
+[data-md-color-scheme="dracula"] .md-typeset details.note {
+  border-color: var(--dracula-purple);
+}
+
+/* Tables */
+[data-md-color-scheme="dracula"] .md-typeset table:not([class]) th {
+  background-color: var(--dracula-current-line);
+  color: var(--dracula-purple);
+}
+
+[data-md-color-scheme="dracula"] .md-typeset table:not([class]) tr:hover td {
+  background-color: #44475a40;
+}
+
+/* Inline code */
+[data-md-color-scheme="dracula"] .md-typeset code {
+  color: var(--dracula-bright-magenta);
+}
+
+/* Links visited */
+[data-md-color-scheme="dracula"] .md-typeset a:hover {
+  color: var(--dracula-bright-cyan);
+}
+
+/* Selection highlight */
+[data-md-color-scheme="dracula"] ::selection {
+  background-color: var(--dracula-selection);
+  color: var(--dracula-foreground);
+}
+
+/* Scrollbar */
+[data-md-color-scheme="dracula"] ::-webkit-scrollbar-thumb {
+  background-color: var(--dracula-comment);
+}
+
+[data-md-color-scheme="dracula"] ::-webkit-scrollbar-thumb:hover {
+  background-color: var(--dracula-purple);
+}
+
+/* Content tabs (pymdownx.tabbed) */
+[data-md-color-scheme="dracula"] .md-typeset .tabbed-labels > label {
+  color: var(--dracula-comment);
+}
+
+[data-md-color-scheme="dracula"] .md-typeset .tabbed-labels > label--active,
+[data-md-color-scheme="dracula"] .md-typeset .tabbed-labels > .tabbed-labels__active {
+  color: var(--dracula-pink);
+}
+
+/* Task list checkboxes */
+[data-md-color-scheme="dracula"] .md-typeset .task-list-indicator::before {
+  border-color: var(--dracula-comment);
+}
+
+[data-md-color-scheme="dracula"] .md-typeset [type="checkbox"]:checked + .task-list-indicator::before {
+  background-color: var(--dracula-green);
+  border-color: var(--dracula-green);
+}
+
+/* ============================================
+   LIGHT SCHEME (Dracula-inspired light variant)
+   ============================================ */
+[data-md-color-scheme="dracula-light"] {
+  --md-text-font: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --md-code-font: "Fira Code", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", monospace;
+
+  --md-primary-fg-color: #6c5ce7;
+  --md-primary-fg-color--light: #6c5ce7cc;
+  --md-primary-fg-color--dark: #5a4bd5;
+  --md-primary-bg-color: #fff;
+  --md-primary-bg-color--light: #ffffffb3;
+
+  --md-accent-fg-color: #e84393;
+  --md-accent-fg-color--transparent: #e843931a;
+
+  --md-typeset-a-color: #6c5ce7;
+
+  --md-code-bg-color: #f4f3fa;
+  --md-code-fg-color: #282a36;
+
+  /* Syntax highlighting - Dracula colors adapted for light bg */
+  --md-code-hl-number-color: #6c5ce7;
+  --md-code-hl-special-color: #e84393;
+  --md-code-hl-function-color: #00b894;
+  --md-code-hl-constant-color: #d35400;
+  --md-code-hl-keyword-color: #e84393;
+  --md-code-hl-string-color: #e17055;
+  --md-code-hl-name-color: #0984e3;
+  --md-code-hl-comment-color: #636e72;
+}
+
+[data-md-color-scheme="dracula-light"] .md-header {
+  background-color: #6c5ce7;
+}
+
+[data-md-color-scheme="dracula-light"] .md-tabs {
+  background-color: #5a4bd5;
+}
+
+[data-md-color-scheme="dracula-light"] .md-typeset code {
+  color: #e84393;
+}
