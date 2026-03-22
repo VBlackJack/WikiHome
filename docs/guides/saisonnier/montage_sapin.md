@@ -1,3 +1,10 @@
+---
+tags:
+  - saisonnier
+  - noel
+  - debutant
+---
+
 ## Montage du Sapin de Noel (Technique Pro)
 
 **Date de mise a jour :** 2026-03-22

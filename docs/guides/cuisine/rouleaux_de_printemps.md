@@ -1,3 +1,10 @@
+---
+tags:
+  - recette
+  - avance
+  - viande
+---
+
 ## Rouleaux de Printemps Vietnamiens (Goi Cuon)
 
 **Date de mise à jour :** 2026-03-22

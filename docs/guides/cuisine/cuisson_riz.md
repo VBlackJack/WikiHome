@@ -1,3 +1,10 @@
+---
+tags:
+  - technique
+  - debutant
+  - vegetarien
+---
+
 ## Cuisson du Riz Long Grain : 4 Méthodes Comparées
 
 **Date de mise à jour :** 2026-03-22

@@ -1,3 +1,11 @@
+---
+tags:
+  - technique
+  - avance
+  - patisserie
+  - vegetarien
+---
+
 ## Les 4 Pâtes à Tarte : Brisée, Sablée, Sucrée, Feuilletée
 
 **Date de mise à jour :** 2026-03-21

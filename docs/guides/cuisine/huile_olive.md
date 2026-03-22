@@ -1,3 +1,9 @@
+---
+tags:
+  - technique
+  - debutant
+---
+
 ## L'Huile d'Olive : Appellations, Cuisson et Dégustation
 
 **Date de mise à jour :** 2026-03-21

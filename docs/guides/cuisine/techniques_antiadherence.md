@@ -1,3 +1,9 @@
+---
+tags:
+  - technique
+  - intermediaire
+---
+
 ## Techniques Anti-Adhérence (Acier Carbone & Inox)
 
 **Date de mise à jour :** 2026-03-21

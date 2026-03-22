@@ -1,3 +1,11 @@
+---
+tags:
+  - recette
+  - debutant
+  - rapide
+  - vegetarien
+---
+
 ## Pancakes au Surplus de Levain et Lait Ribot
 
 **Date de mise à jour :** 2026-03-22

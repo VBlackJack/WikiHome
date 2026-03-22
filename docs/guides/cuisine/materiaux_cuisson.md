@@ -1,3 +1,9 @@
+---
+tags:
+  - technique
+  - securite
+---
+
 ## Matériaux et Revêtements des Ustensiles de Cuisson
 
 **Date de mise à jour :** 2026-03-21

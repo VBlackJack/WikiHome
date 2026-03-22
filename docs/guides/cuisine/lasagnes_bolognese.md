@@ -1,3 +1,10 @@
+---
+tags:
+  - recette
+  - avance
+  - viande
+---
+
 ## Lasagnes alla Bolognese (Recette Traditionnelle)
 
 **Date de mise à jour :** 2026-03-22

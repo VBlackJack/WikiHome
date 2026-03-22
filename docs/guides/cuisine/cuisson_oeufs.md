@@ -1,3 +1,11 @@
+---
+tags:
+  - technique
+  - debutant
+  - rapide
+  - vegetarien
+---
+
 ## Cuisson des Oeufs (Coque, Mollet, Dur)
 
 **Date de mise a jour :** 2026-03-22

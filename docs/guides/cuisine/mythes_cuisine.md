@@ -1,3 +1,9 @@
+---
+tags:
+  - technique
+  - securite
+---
+
 ## Mythes en Cuisine : Ce qui est Vrai, Ce qui est Faux
 
 **Date de mise à jour :** 2026-03-21

@@ -1,3 +1,10 @@
+---
+tags:
+  - recette
+  - intermediaire
+  - vegetarien
+---
+
 ## Crêpes de Paul Bocuse (Beurre Noisette)
 
 **Date de mise à jour :** 2026-03-22

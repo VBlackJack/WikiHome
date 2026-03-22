@@ -1,3 +1,9 @@
+---
+tags:
+  - technique
+  - debutant
+---
+
 ## Les Œufs : Codes d'Élevage, Qualité et Œufs de Cane
 
 **Date de mise à jour :** 2026-03-21

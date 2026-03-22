@@ -1,3 +1,9 @@
+---
+tags:
+  - technique
+  - debutant
+---
+
 ## Le Beurre : Appellations, Cuisson et Clarification
 
 **Date de mise à jour :** 2026-03-21

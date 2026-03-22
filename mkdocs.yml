@@ -24,14 +24,15 @@ theme:
     - search.highlight
     - content.code.copy
     - toc.integrate
+plugins:
+  - search:
+      separator: "[\\s\\-\\.']+"
+  - tags:
+      tags_file: tags.md
 extra_css:
   - stylesheets/dracula.css
 nav:
   - Accueil: index.md
-  - Saisonnier:
-    - guides/saisonnier/index.md
-    - Montage Sapin: guides/saisonnier/montage_sapin.md
-    - Specs Sapin: guides/saisonnier/specs_sapin.md
   - Cuisine:
     - guides/cuisine/index.md
     - Fondamentaux:
@@ -41,10 +42,14 @@ nav:
       - "Mat\xE9riaux Cuisson": guides/cuisine/materiaux_cuisson.md
       - "Techniques Anti-Adh\xE9rence": guides/cuisine/techniques_antiadherence.md
       - Mythes en Cuisine: guides/cuisine/mythes_cuisine.md
+      - Conservation des Aliments: guides/cuisine/conservation_aliments.md
+      - Equivalences et Conversions: guides/cuisine/equivalences.md
     - Techniques de base:
       - Cuisson des Oeufs: guides/cuisine/cuisson_oeufs.md
       - Cuisson du Riz: guides/cuisine/cuisson_riz.md
+      - Cuisson des Viandes: guides/cuisine/cuisson_viandes.md
       - Pomme de Terre: guides/cuisine/pomme_de_terre.md
+      - Sauces de Base: guides/cuisine/sauces_bases.md
       - "P\xE2tes \xE0 Tarte": guides/cuisine/pates_a_tarte.md
       - "P\xE2te \xE0 Cr\xEApes": guides/cuisine/pate_a_crepes.md
     - Recettes:
@@ -52,9 +57,25 @@ nav:
       - "Cr\xEApes Paul Bocuse": guides/cuisine/crepes_paul_bocuse.md
       - "Pur\xE9e Robuchon": guides/cuisine/puree_robuchon.md
       - Lasagnes Bolognese: guides/cuisine/lasagnes_bolognese.md
+      - Pain au Levain: guides/cuisine/pain_levain.md
       - Pancakes au Levain: guides/cuisine/pancakes_levain.md
       - Rouleaux de Printemps: guides/cuisine/rouleaux_de_printemps.md
       - "B\xEC Cu\u1ED1n": guides/cuisine/bi_cuon.md
+  - Bricolage:
+    - guides/bricolage/index.md
+    - Chevilles et Fixations: guides/bricolage/chevilles_fixations.md
+    - Purger un Radiateur: guides/bricolage/purger_radiateur.md
+    - Changer un Joint: guides/bricolage/changer_joint.md
+  - Saisonnier:
+    - guides/saisonnier/index.md
+    - Montage Sapin: guides/saisonnier/montage_sapin.md
+    - Specs Sapin: guides/saisonnier/specs_sapin.md
+    - Checklist Vacances: guides/saisonnier/checklist_vacances.md
+    - Entretien Saisonnier: guides/saisonnier/entretien_saisonnier.md
+  - Admin:
+    - guides/admin/index.md
+    - Checklist Administrative: guides/admin/checklist_administrative.md
+  - Tags: tags.md
 markdown_extensions:
   - admonition
   - pymdownx.details

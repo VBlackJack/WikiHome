@@ -1,3 +1,10 @@
+---
+tags:
+  - recette
+  - debutant
+  - vegetarien
+---
+
 ## Pâte à Crêpes : Recette et Impact du Repos
 
 **Date de mise à jour :** 2026-03-22

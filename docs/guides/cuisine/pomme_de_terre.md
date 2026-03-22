@@ -1,3 +1,10 @@
+---
+tags:
+  - technique
+  - debutant
+  - vegetarien
+---
+
 ## La Pomme de Terre : Variétés, Cuissons et Conservation
 
 **Date de mise à jour :** 2026-03-21

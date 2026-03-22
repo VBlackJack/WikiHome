@@ -1,3 +1,10 @@
+---
+tags:
+  - recette
+  - avance
+  - vegetarien
+---
+
 ## Purée de Pommes de Terre Joël Robuchon
 
 **Date de mise à jour :** 2026-03-22

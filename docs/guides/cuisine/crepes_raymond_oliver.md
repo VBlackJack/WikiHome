@@ -1,3 +1,9 @@
+---
+tags:
+  - recette
+  - avance
+---
+
 ## Crêpes de Raymond Oliver (1954)
 
 **Date de mise à jour :** 2026-03-22

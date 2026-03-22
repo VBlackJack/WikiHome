@@ -1,3 +1,10 @@
+---
+tags:
+  - saisonnier
+  - noel
+  - technique
+---
+
 ## Specifications Techniques : Sapin de Noel
 
 **Date de mise a jour :** 2026-03-22
