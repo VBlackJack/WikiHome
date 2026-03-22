@@ -22,6 +22,7 @@ WikiHome est une base de connaissances "No-Fluff" pour la gestion efficace du qu
 - [Mythes en cuisine : vrai ou faux](guides/cuisine/mythes_cuisine.md)
 - [Conservation des aliments (DLC, DDM, congelation)](guides/cuisine/conservation_aliments.md)
 - [Equivalences et conversions](guides/cuisine/equivalences.md)
+- [Plantes sauvages comestibles](guides/cuisine/plantes_sauvages.md)
 
 ### Techniques de base
 
@@ -31,6 +32,7 @@ WikiHome est une base de connaissances "No-Fluff" pour la gestion efficace du qu
 - [Pomme de terre : varietes et cuissons](guides/cuisine/pomme_de_terre.md)
 - [Sauces de base (vinaigrette, tomate, fond)](guides/cuisine/sauces_bases.md)
 - [Sauce Nuoc Cham (accompagnement vietnamien)](guides/cuisine/nuoc_cham.md)
+- [Sauces classiques Escoffier (espagnole, veloute, bechamel, hollandaise)](guides/cuisine/sauces_classiques.md)
 - [Les 4 pates a tarte](guides/cuisine/pates_a_tarte.md)
 - [Pate a crepes](guides/cuisine/pate_a_crepes.md)
 
@@ -61,6 +63,7 @@ WikiHome est une base de connaissances "No-Fluff" pour la gestion efficace du qu
 - [Bicarbonate de soude : 20+ usages domestiques](guides/bricolage/bicarbonate_soude.md)
 - [Citron : 15+ usages domestiques](guides/bricolage/citron.md)
 - [Astuces nettoyage et entretien](guides/bricolage/astuces_nettoyage.md)
+- [Plantes medicinales courantes](guides/bricolage/plantes_medicinales.md)
 
 ---
 

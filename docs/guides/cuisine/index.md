@@ -19,6 +19,7 @@ Comprendre les ingredients et le materiel avant de cuisiner.
 - [Mythes en cuisine : vrai ou faux](mythes_cuisine.md)
 - [Conservation des aliments (DLC, DDM, congelation)](conservation_aliments.md)
 - [Equivalences et conversions](equivalences.md)
+- [Plantes sauvages comestibles](plantes_sauvages.md)
 
 ## Techniques de base
 
@@ -30,6 +31,7 @@ Les gestes essentiels a maitriser.
 - [Pomme de terre : varietes et cuissons](pomme_de_terre.md)
 - [Sauces de base (vinaigrette, tomate, fond)](sauces_bases.md)
 - [Sauce Nuoc Cham (accompagnement vietnamien)](nuoc_cham.md)
+- [Sauces classiques Escoffier](sauces_classiques.md)
 - [Les 4 pates a tarte](pates_a_tarte.md)
 - [Pate a crepes](pate_a_crepes.md)
 

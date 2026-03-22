@@ -44,6 +44,7 @@ nav:
       - Mythes en Cuisine: guides/cuisine/mythes_cuisine.md
       - Conservation des Aliments: guides/cuisine/conservation_aliments.md
       - Equivalences et Conversions: guides/cuisine/equivalences.md
+      - Plantes Sauvages Comestibles: guides/cuisine/plantes_sauvages.md
     - Techniques de base:
       - Cuisson des Oeufs: guides/cuisine/cuisson_oeufs.md
       - Cuisson du Riz: guides/cuisine/cuisson_riz.md
@@ -51,6 +52,7 @@ nav:
       - Pomme de Terre: guides/cuisine/pomme_de_terre.md
       - Sauces de Base: guides/cuisine/sauces_bases.md
       - Sauce Nuoc Cham: guides/cuisine/nuoc_cham.md
+      - Sauces Classiques (Escoffier): guides/cuisine/sauces_classiques.md
       - "P\xE2tes \xE0 Tarte": guides/cuisine/pates_a_tarte.md
       - "P\xE2te \xE0 Cr\xEApes": guides/cuisine/pate_a_crepes.md
     - Recettes:
@@ -73,6 +75,7 @@ nav:
       - Bicarbonate de Soude: guides/bricolage/bicarbonate_soude.md
       - Citron: guides/bricolage/citron.md
       - Astuces Nettoyage: guides/bricolage/astuces_nettoyage.md
+      - Plantes Medicinales: guides/bricolage/plantes_medicinales.md
   - Saisonnier:
     - guides/saisonnier/index.md
     - Montage Sapin: guides/saisonnier/montage_sapin.md
